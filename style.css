@@ -1,0 +1,325 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+}
+
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #ff5733;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+    --light-gray: #e9ecef;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 60px 0;
+    border: 3.5px solid black;
+    border-radius: 15px;
+}
+
+header h1, header p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(12, 12, 12, 0.1);
+    border-radius: 8px;
+    border: 2px solid orangered;
+}
+
+.navbar-brand, .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+}
+
+.nav-link {
+    color: var(--black) !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+
+#about {
+    background: var(--dark-color);
+    color: var(--white);
+    padding: 50px 0;
+    border: 2.7px solid orangered;
+    border-radius: 20px;
+}
+
+#about h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+#education {
+    background: var(--light-gray);
+    color: var(--dark-color);
+    padding: 50px 0;
+    border: 2.7px solid orangered;
+    border-radius: 20px;
+}
+
+#education h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+}
+
+#education ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+#skills {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 50px 0;
+    border: 2.7px solid orangered;
+    border-radius: 20px;
+}
+
+#skills h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.skill-category {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skill-category h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.skill-card {
+    background: var(--dark-color);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+#projects {
+    background: var(--light-color);
+    color: var(--dark-color);
+    padding: 50px 0;
+    border: 2.7px solid orangered;
+    border-radius: 20px;
+}
+
+#projects h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: var(--secondary-color);
+}
+
+
+#blog {
+    background: var(--light-gray);
+    color: var(--dark-color);
+    padding: 50px 0;
+    border: 2.7px solid orangered;
+    border-radius: 20px;
+}
+
+#blog h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.card-body {
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:var(--dark-color);
+
+}
+
+.card-body h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body p {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: var(--secondary-color);
+}
+
+
+#contact {
+    background: var(--dark-color);
+    color: var(--white);
+    padding: 50px 0;
+    border: 2.7px solid orangered;
+    border-radius: 20px;
+}
+
+#contact h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    color: white;
+}
+
+.form-control {
+    background: var(--light-color);
+    color: var(--dark-color);
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: var(--secondary-color);
+}
+
+#contact p {
+    margin-top: 20px;
+}
+
+
+footer {
+    background: var(--dark-color);
+    color: white;
+    padding: 20px 0;
+    border: 2.5px solid orangered;
+    border-radius: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+
+.animate__animated {
+    animation-duration: 1.2s;
+}
+
+
+
+#projects .card:hover {
+    animation: pulse 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+#blog .card:hover {
+    animation: pulse 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card-body {
+        height: auto;
+    }
+}
